@@ -1,0 +1,80 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ui,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common Css End */
+#countdown{
+    padding: 100px 0;
+    background-color: tomato;
+}
+.counter_item{
+    background-color: aqua;
+    padding: 40px 15px;
+    border-radius:10px;
+}
+.counter_item h1{
+    padding-bottom: 20px;
+}
+#counterup{
+    padding: 100px 0;
+    background-color:teal;
+}
+
+#slider{
+    background-color: blue;
+    padding: 110px 0;
+}
+
+.sliderone{
+    padding: 200px 0;
+    background: url(../images/n1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slidertwo{
+    padding: 200px 0;
+    background: url(../images/n2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sliderthree{
+    padding: 200px 0;
+    background: url(../images/n3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.prev{
+    color: blueviolet;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+.next{
+    color: blueviolet;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
